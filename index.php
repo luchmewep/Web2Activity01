@@ -28,10 +28,10 @@
                 <img class="d-block w-100" src="images/img01.jpg" alt="LizQuen">
               </div>
               <div class="carousel-item">
-                <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(121).jpg" alt="Second slide">
+                <img class="d-block w-100" src="images/img02.jpg" alt="Ivana">
               </div>
               <div class="carousel-item">
-                <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(31).jpg" alt="Third slide">
+                <img class="d-block w-100" src="images/img03.jpg" alt="Marzia & Pewdipie">
               </div>
             </div>
             <!--/.Slides-->
@@ -50,10 +50,10 @@
                 <img src="images/img01.jpg" width="100">
               </li>
               <li data-target="#carousel-thumb" data-slide-to="1">
-                <img src="https://mdbootstrap.com/img/Photos/Others/Carousel-thumbs/img%20(121).jpg" width="100">
+                <img src="images/img02.jpg" width="100">
               </li>
               <li data-target="#carousel-thumb" data-slide-to="2">
-                <img src="https://mdbootstrap.com/img/Photos/Others/Carousel-thumbs/img%20(31).jpg" width="100">
+                <img src="images/img03.jpg" width="100">
               </li>
             </ol>
           </div>
