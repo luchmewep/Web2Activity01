@@ -1,0 +1,8 @@
+Github Repo: https://github.com/luchmewep/Web2Activity01
+Deployed App: http://love-mail.herokuapp.com
+Database Info:
+> ClearDB MySQL (Heroku Add-on)
+> Max Size: 5MB
+> Server/Host: us-cdbr-iron-east-04.cleardb.net
+> Username: bcf54e7efed215
+> Password: 9686ed7d

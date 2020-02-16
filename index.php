@@ -1,4 +1,7 @@
-<?php include 'includes/head.php'; ?>
+<?php include 'includes/head.php';
+  $connection = new mysqli("localhost", "root", "");
+
+?>
 
 <body>
   <!-- Start your project here-->
@@ -18,7 +21,8 @@
           </div>
         </div>
       </div>
-      <div class="row">
+
+      div class="row">
         <div class="col-md-8 offset-md-2">
           <!--Carousel Wrapper-->
           <div id="carousel-thumb" class="carousel slide carousel-fade carousel-thumbnails" data-ride="carousel">
@@ -72,11 +76,11 @@
               <!-- Nav tabs -->
               <ul class="nav nav-tabs md-tabs tabs-2 light-blue darken-3" role="tablist">
                 <li class="nav-item">
-                  <a class="nav-link active" data-toggle="tab" href="#panel7" role="tab"><i class="fas fa-user mr-1"></i>
+                  <a class="nav-link active" data-toggle="tab" href="#login" role="tab"><i class="fas fa-user mr-1"></i>
                     Login</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" data-toggle="tab" href="#panel8" role="tab"><i class="fas fa-user-plus mr-1"></i>
+                  <a class="nav-link" data-toggle="tab" href="#register" role="tab"><i class="fas fa-user-plus mr-1"></i>
                     Register</a>
                 </li>
               </ul>
@@ -84,7 +88,7 @@
               <!-- Tab panels -->
               <div class="tab-content">
                 <!--Panel 7-->
-                <div class="tab-pane fade in show active" id="panel7" role="tabpanel">
+                <div class="tab-pane fade in show active" id="login" role="tabpanel">
 
                   <!--Body-->
                   <div class="modal-body mb-1">
@@ -116,7 +120,7 @@
                 <!--/.Panel 7-->
 
                 <!--Panel 8-->
-                <div class="tab-pane fade" id="panel8" role="tabpanel">
+                <div class="tab-pane fade" id="register" role="tabpanel">
 
                   <!--Body-->
                   <div class="modal-body">
@@ -165,6 +169,5 @@
 
   <!-- Main Layout -->
   <!-- Footer -->
-
   <!-- Footer -->
   <?php include 'includes/footer.php'; ?>
